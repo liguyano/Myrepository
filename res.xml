@@ -1,0 +1,301 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<respositorys>
+	<respository>
+		<name>
+			MPU6050
+		</name>
+		<path>
+            D:\OneDrive - jxstnu.edu.cn\keil\respocity\MPU6050\
+		</path>
+		<fileName>
+            MPU6050
+		</fileName>
+	<!-- 	<dependent>
+
+		</dependent> -->
+	</respository>
+	<respository>
+		<name>
+			PCF8591
+		</name>
+		<path>
+            D:\OneDrive - jxstnu.edu.cn\keil\respocity\PCF8591\
+		</path>
+		<fileName>
+           AD2DA
+		</fileName>
+	</respository>
+	<respository><name>
+			DHT22
+		</name>
+		<path>
+            D:\OneDrive - jxstnu.edu.cn\keil\respocity\DHT22\
+		</path>
+		<fileName>
+           DHT22
+		</fileName>
+	</respository>
+<respository>
+    <name>
+        SHT35
+    </name>
+    <path>
+        D:\OneDrive - jxstnu.edu.cn\keil\respocity\SHT35\
+    </path>
+    <fileName>
+        SHT35
+    </fileName>
+
+</respository>
+<respository>
+    <name>
+        AT24C02
+    </name>
+    <path>
+        D:\OneDrive - jxstnu.edu.cn\keil\respocity\AT24C02\
+    </path>
+    <fileName>
+        ATC02
+    </fileName>
+    <dependent>
+			I2C
+		</dependent>
+</respository>
+<respository>
+    <name>
+        I2C
+    </name>
+    <path>
+        D:\OneDrive - jxstnu.edu.cn\keil\respocity\I2C\
+    </path>
+    <fileName>
+        I2C
+    </fileName>
+</respository>
+<respository>
+    <name>
+        DS18B02
+    </name>
+    <path>
+        D:\OneDrive - jxstnu.edu.cn\keil\respocity\DS18B02\
+    </path>
+    <fileName>
+        DS18B02
+    </fileName>
+        <dependent>
+			OneWire
+		</dependent>
+</respository>
+<respository>
+    <name>
+        OneWire
+    </name>
+    <path>
+        D:\OneDrive - jxstnu.edu.cn\keil\respocity\OneWire\
+    </path>
+    <fileName>
+        OneWire
+    </fileName>
+</respository>
+<respository>
+    <name>
+        51UART
+    </name>
+    <path>
+        D:\OneDrive - jxstnu.edu.cn\keil\respocity\UART\
+    </path>
+    <fileName>
+        UART
+    </fileName>
+</respository>
+<respository>
+    <name>
+        Transport
+    </name>
+    <path>
+        D:\OneDrive - jxstnu.edu.cn\keil\respocity\Transport\
+    </path>
+    <fileName>
+        Transport
+    </fileName>
+</respository>
+<respository>
+    <name>
+        sonic
+    </name>
+    <path>
+        D:\OneDrive - jxstnu.edu.cn\keil\respocity\sonic\
+    </path>
+    <fileName>
+        sonic
+    </fileName>
+</respository>
+<respository>
+    <name>
+        LCD1602
+    </name>
+    <path>
+        D:\OneDrive - jxstnu.edu.cn\keil\respocity\LCD1602\
+    </path>
+    <fileName>
+        LCD1602
+    </fileName>
+</respository>
+<respository >
+    <name>
+        Air724
+    </name>
+    <path>
+        D:\OneDrive - jxstnu.edu.cn\keil\respocity\Air724\
+    </path>
+    <fileName>
+        Air724
+    </fileName>
+    	<dependent>
+			STC32G_UART,STC32G_Delay
+		</dependent>
+</respository>
+<respository only='c'>
+    <name>
+        STC32G_UART_Isr
+    </name>
+    <path>
+        D:\OneDrive - jxstnu.edu.cn\keil\respocity\STC32\
+    </path>
+    <fileName>
+        STC32G_UART_Isr
+    </fileName>
+</respository>
+<respository >
+    <name>
+        STC32G_UART
+    </name>
+    <path>
+        D:\OneDrive - jxstnu.edu.cn\keil\respocity\STC32\
+    </path>
+    <fileName>
+        STC32G_UART
+    </fileName>
+    <dependent>
+			STC32G_UART_Isr
+	</dependent>
+</respository>
+<respository only='h'>
+    <name>
+        config
+    </name>
+    <path>
+        D:\OneDrive - jxstnu.edu.cn\keil\respocity\STC32\
+    </path>
+    <fileName>
+        config
+    </fileName>
+</respository>
+<respository only='h'>
+    <name>
+        Type_def
+    </name>
+    <path>
+        D:\OneDrive - jxstnu.edu.cn\keil\respocity\STC32\
+    </path>
+    <fileName>
+        Type_def
+    </fileName>
+</respository>
+<respository only='h'>
+    <name>
+        CAR
+    </name>
+    <path>
+        D:\OneDrive - jxstnu.edu.cn\keil\respocity\STC32\
+    </path>
+    <fileName>
+        CAR
+    </fileName>
+</respository>
+<respository >
+    <name>
+        STC32G_Delay
+    </name>
+    <path>
+        D:\OneDrive - jxstnu.edu.cn\keil\respocity\STC32\
+    </path>
+    <fileName>
+        STC32G_Delay
+    </fileName>
+        <dependent>
+			config
+	</dependent>
+	
+</respository>
+<respository >
+    <name>
+        STC32G_NVIC
+    </name>
+    <path>
+        D:\OneDrive - jxstnu.edu.cn\keil\respocity\STC32\
+    </path>
+    <fileName>
+        STC32G_NVIC
+    </fileName>
+        <dependent>
+			config
+	</dependent>
+</respository>
+<respository >
+    <name>
+        STC32G_GPIO
+    </name>
+    <path>
+        D:\OneDrive - jxstnu.edu.cn\keil\respocity\STC32\
+    </path>
+    <fileName>
+        STC32G_GPIO
+    </fileName>
+        <dependent>
+			config
+	</dependent>
+</respository>
+<respository only="h">
+    <name>
+        STC32G_Switch
+    </name>
+    <path>
+        D:\OneDrive - jxstnu.edu.cn\keil\respocity\STC32\
+    </path>
+    <fileName>
+        STC32G_Switch
+    </fileName>
+    <dependent>
+            config
+    </dependent>
+</respository>
+<respository only="d">
+    <name>
+        STC32S
+    </name>
+    <path>
+        D:\OneDrive - jxstnu.edu.cn\keil\respocity\STC32\
+    </path>
+    <fileName>
+        ddd
+    </fileName>
+    <dependent>
+            STC32G_Switch,STC32G_GPIO,STC32G_NVIC,STC32G_Delay,STC32G_UART,Type_def
+    </dependent>
+</respository>
+		<!-- 	<respository>
+		<name>
+			
+		</name>
+		<path>
+            D:\OneDrive - jxstnu.edu.cn\keil\respocity\MPU6050\
+		</path>
+		<fileName>
+           
+		</fileName>
+		<dependent>
+			
+		</dependent>
+	</respository> -->
+</respositorys>
