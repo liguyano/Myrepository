@@ -1,9 +1,9 @@
-#include <REGX52.H>
+#include "LCD1602.h"
 
 //引脚配置：
-sbit LCD_RS=P2^6;
-sbit LCD_RW=P2^5;
-sbit LCD_EN=P2^7;
+#define LCD_RS P20
+#define LCD_RW P21
+#define LCD_EN P12
 #define LCD_DataPort P0
 
 //函数定义：
@@ -14,10 +14,10 @@ sbit LCD_EN=P2^7;
   */
 void LCD_Delay()
 {
-	unsigned char i, j;
-
+		unsigned char i, j;
+	_nop_();
 	i = 2;
-	j = 239;
+	j = 199;
 	do
 	{
 		while (--j);

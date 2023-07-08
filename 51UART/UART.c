@@ -1,5 +1,4 @@
-#include <REGX52.H>
-
+#include "UART.h"
 /**
   * @brief  串口初始化，4800bps@12.000MHz
   * @param  无
@@ -27,4 +26,12 @@ void UART_SendByte(unsigned char Byte)
 	SBUF=Byte;
 	while(TI==0);
 	TI=0;
+}
+void UART_SendString(char * string)
+{
+    while (*string!='\0')
+    {
+        UART_SendByte(*string);
+        string++;
+    }
 }

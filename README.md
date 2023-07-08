@@ -2,7 +2,6 @@
 Myrepository
 
 * this is the respository of my self-made .   
-  
 ## how to use the res.xml
 * add a   &lt; respository &gt; in the `<repositorys> `  
 
@@ -25,10 +24,7 @@ Myrepository
     			I2C
     		</dependent>
     </respository>
-    ```
-
-     
-
+    ```     
 * the package name  _AT24C02_ but the file it contains is *ATC02.c*  and *ATC02.h* 
 
 * the dependent means the package 's dependent package name , such as atc02 must add the I2C first.
@@ -46,7 +42,7 @@ setResP D:\OneDrive - jxstnu.edu.cn\keil\respocity\
 setIncludeHand STC32G.h
 addC main.c,atk.c
 addH SSS.h
-addD Air724,STC32S,SHT35,MPU6050,AT24C02,CAR
+use Air724,STC32S,SHT35,MPU6050,AT24C02,CAR
 
 ```
 
@@ -54,4 +50,4 @@ addD Air724,STC32S,SHT35,MPU6050,AT24C02,CAR
 * `setIncludeHand` will autoly replace the *.c* file in the resposity let them include the parament
 * `addC` means add the .c file to the *Project.urject* now the name of this file was unchange able use the *','* to spilt
 * `addH ` same as `addC ` just this add the .h file
-* `addD` means add dependent package, the name was the package name saved in the res.xml. use the ',' to spilt , auto add the dependent attribute in the res.xml 
+* `use` means add dependent package, the name was the package name saved in the res.xml. use the ',' to spilt , auto add the dependent attribute in the res.xml ,this command used to name `addD`

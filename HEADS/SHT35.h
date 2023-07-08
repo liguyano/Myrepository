@@ -1,14 +1,12 @@
-#include<STC32G.h>
+#include<STC89C5xRC.H>
 
 #ifndef __SHT3X_H_
 #define __SHT3X_H_
-
-#include <STC32G.H>
 #include "SSS.h"
 
 
-#define SDA  P24  /* 数据线 */
-#define SCL  P25  /* 时钟线 */
+#define SDA  P21  /* 数据线 */
+#define SCL  P20  /* 时钟线 */
 
 
 // Error codes

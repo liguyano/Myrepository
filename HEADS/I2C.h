@@ -1,11 +1,11 @@
-#include<STC32G.h>
+#include<STC89C5xRC.H>
 // Created by kurum on 2/20/2023.
 //
 
 #ifndef CMAKELISTS_TXT_I2C_H
 #define CMAKELISTS_TXT_I2C_H
-#define SDA P21
-#define SCL P20
+#define scl P24
+#define sda  P25
 void one_start();
 void one_stop();
 void one_sendByte(unsigned char Byte);

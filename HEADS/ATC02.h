@@ -1,4 +1,4 @@
-#include<STC32G.h>
+#include<STC89C5xRC.H>
 // Created by kurum on 2/21/2023.
 //
 

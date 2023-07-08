@@ -4,9 +4,6 @@
 #define DELAY_TIME 5
 
 /** 定义I2C总线时钟线和数据线 */
-sbit scl = P2^0;
-sbit sda = P2^1;
-
 /**
 * @brief I2C总线中一些必要的延时
 *
@@ -166,4 +163,16 @@ void operate_delay(unsigned char t)
 	while(t--){
 		for(i=0; i<112; i++);
 	}
+}
+unsigned char get_i2C_addr()
+{unsigned char addr;
+     for (addr=2;addr<0xFE;addr+=2)
+        {
+            one_start();
+            one_sendByte(addr);
+            if( !I2C_recv_ack())
+            {
+                return addr;
+            }
+        }
 }
